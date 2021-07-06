@@ -53,6 +53,4 @@ apply_rbac() {
 create_target_folder
 apply_rbac
 
-echo -e "\\nAll done! Test with:"
-echo -e ${YELLOW} "KUBECONFIG=${KUBECFG_FILE_NAME} ${COLOROFF} kubectl get pods"
-KUBECONFIG=${KUBECFG_FILE_NAME} kubectl get pods
+
